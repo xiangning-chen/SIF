@@ -2,6 +2,7 @@
 Code accompanying the paper  
 
 [WWW'20](https://www2020.thewebconf.org/): ***Efficient Neural Interaction Function Search for Collaborative Filtering*** [paper](https://arxiv.org/abs/1906.12091) [slides](https://pan.baidu.com/s/1XyJb5Nc9ZMUz_dq9c767Ug)
+
 Quanming Yao*, Xiangning Chen*, James Kowk, Yong Li, Cho-Jui Hsieh
 
 ![](fig.png)

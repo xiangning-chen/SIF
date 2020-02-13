@@ -39,7 +39,7 @@ To run baselines, these packages are required:
 
 * Baseline (examples)
 
-```python main_search.py --mode=random --dataset=ml-100k # Random```
+```python main_search.py --mode=random --dataset=ml-100k # Random```  
 ```python main_search.py --mode=hyperopt --dataset=ml-100k # Bayesian Optimization``` 
 
 ## Architecture Evaluation
@@ -49,7 +49,7 @@ To run baselines, these packages are required:
 
 * Baseline (examples)
 
-```python main_evaluate.py --mode=ncf --dataset=ml-100k    # Neural Collaborative Filtering```
+```python main_evaluate.py --mode=ncf --dataset=ml-100k    # Neural Collaborative Filtering```  
 ```python main_evaluate.py --mode=libfm --dataset=ml-100k # Factorization Machine```
 
 ## Related publications:

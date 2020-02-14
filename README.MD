@@ -20,34 +20,32 @@ If you find this code useful in your research please cite
 
 ## Setup
 MovieLens-100K, MovieLens-1M and MovieLens-10M datasets are publicly available [here](https://grouplens.org/datasets/movielens/). The Youtube dataset is introduced in this [paper](https://ieeexplore.ieee.org/abstract/document/5360276).
-The main environment is:
-
+The main environment is:  
 * CUDA 9.0
 * torch 1.1.0
 * numpy 1.14.0
 
-To run baselines, these packages are required:
-
+To run baselines, these packages are required:  
 * [tffm](https://github.com/geffy/tffm)
 * [hyperopt](https://github.com/hyperopt/hyperopt)
 * tensorflow 1.15.2
 
 ## Architecture Search
-* SIF
+* **SIF**
 
 ```python main_search.py --mode=sif --dataset=ml-100k```
 
-* Baseline (examples)
+* **Baseline (examples)**
 
 ```python main_search.py --mode=random --dataset=ml-100k # Random```  
 ```python main_search.py --mode=hyperopt --dataset=ml-100k # Bayesian Optimization``` 
 
 ## Architecture Evaluation
-* SIF
+* **SIF**
 
 ```python main_evaluate.py --mode=sif --dataset=ml-100k --arch=searched_model_path```
 
-* Baseline (examples)
+* **Baseline (examples)**
 
 ```python main_evaluate.py --mode=ncf --dataset=ml-100k    # Neural Collaborative Filtering```  
 ```python main_evaluate.py --mode=libfm --dataset=ml-100k # Factorization Machine```

@@ -8,13 +8,11 @@ Quanming Yao*, Xiangning Chen*, James Kowk, Yong Li, Cho-Jui Hsieh
 If you find this code useful in your research please cite
 
 ```
-@misc{yao2019efficient,
-    title={Efficient Neural Interaction Function Search for Collaborative Filtering},
-    author={Quanming Yao and Xiangning Chen and James Kwok and Yong Li and Cho-Jui Hsieh},
-    year={2019},
-    eprint={1906.12091},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@inproceedings{yao2019efficient,
+  title={Efficient Neural Interaction Function Search for Collaborative Filtering},
+  author={Quanming Yao and Xiangning Chen and James Kwok and Yong Li and Cho-Jui Hsieh},
+  booktitle={WWW},
+  year={2020},
 }
 ```
 
